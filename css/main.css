@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Charm:700&subset=latin-ext');
+body {
+  background: url(../images/bg.png) no-repeat fixed;
+  background-position: center;
+  background-size: 400px;
+  background-color: rgb(900, 900, 900);
+}
+
+::-moz-selection {
+  background: rgb(0, 0, 0);
+  color: rgb(900, 900, 900);
+}
+
+.modal-footer {
+  font-family: 'Charm', cursive;
+  font-size: 18pt;
+  color: rgb(0, 0, 0);
+  position: fixed;
+  top: 80%;
+  left: 48%;
+  transform: translate(-50%, 0);
+  letter-spacing: -1.4px;
+}
+
+.bgm {
+  display: none;
+}
